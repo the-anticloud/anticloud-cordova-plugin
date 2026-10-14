@@ -1,0 +1,187 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:d3eb65c5-5a8f-54ad-866b-aec9a35ac6a6",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:15:54Z",
+  "component": {
+   "type": "application",
+   "name": "CORDOVA_PLUGIN",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CORDOVA_PLUGIN@83b357604d34",
+   "purl": "pkg:generic/anticloud/CORDOVA_PLUGIN@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "android-versions",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/android-versions@^2.1.1",
+   "bom-ref": "npm/android-versions@^2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "cordova-common",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/cordova-common@^6.0.0",
+   "bom-ref": "npm/cordova-common@^6.0.0"
+  },
+  {
+   "type": "library",
+   "name": "dedent",
+   "version": "^1.7.1",
+   "purl": "pkg:npm/dedent@^1.7.1",
+   "bom-ref": "npm/dedent@^1.7.1"
+  },
+  {
+   "type": "library",
+   "name": "execa",
+   "version": "^5.1.1",
+   "purl": "pkg:npm/execa@^5.1.1",
+   "bom-ref": "npm/execa@^5.1.1"
+  },
+  {
+   "type": "library",
+   "name": "fast-glob",
+   "version": "^3.3.3",
+   "purl": "pkg:npm/fast-glob@^3.3.3",
+   "bom-ref": "npm/fast-glob@^3.3.3"
+  },
+  {
+   "type": "library",
+   "name": "is-path-inside",
+   "version": "^3.0.3",
+   "purl": "pkg:npm/is-path-inside@^3.0.3",
+   "bom-ref": "npm/is-path-inside@^3.0.3"
+  },
+  {
+   "type": "library",
+   "name": "nopt",
+   "version": "^9.0.0",
+   "purl": "pkg:npm/nopt@^9.0.0",
+   "bom-ref": "npm/nopt@^9.0.0"
+  },
+  {
+   "type": "library",
+   "name": "properties-parser",
+   "version": "^0.6.0",
+   "purl": "pkg:npm/properties-parser@^0.6.0",
+   "bom-ref": "npm/properties-parser@^0.6.0"
+  },
+  {
+   "type": "library",
+   "name": "semver",
+   "version": "^7.7.4",
+   "purl": "pkg:npm/semver@^7.7.4",
+   "bom-ref": "npm/semver@^7.7.4"
+  },
+  {
+   "type": "library",
+   "name": "string-argv",
+   "version": "^0.3.2",
+   "purl": "pkg:npm/string-argv@^0.3.2",
+   "bom-ref": "npm/string-argv@^0.3.2"
+  },
+  {
+   "type": "library",
+   "name": "untildify",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/untildify@^4.0.0",
+   "bom-ref": "npm/untildify@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "which",
+   "version": "^6.0.1",
+   "purl": "pkg:npm/which@^6.0.1",
+   "bom-ref": "npm/which@^6.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@cordova/eslint-config",
+   "version": "^6.0.1",
+   "purl": "pkg:npm/@cordova/eslint-config@^6.0.1",
+   "bom-ref": "npm/@cordova/eslint-config@^6.0.1"
+  },
+  {
+   "type": "library",
+   "name": "c8",
+   "version": "^12.0.0",
+   "purl": "pkg:npm/c8@^12.0.0",
+   "bom-ref": "npm/c8@^12.0.0"
+  },
+  {
+   "type": "library",
+   "name": "cordova-js",
+   "version": "^6.1.0",
+   "purl": "pkg:npm/cordova-js@^6.1.0",
+   "bom-ref": "npm/cordova-js@^6.1.0"
+  },
+  {
+   "type": "library",
+   "name": "elementtree",
+   "version": "^0.1.7",
+   "purl": "pkg:npm/elementtree@^0.1.7",
+   "bom-ref": "npm/elementtree@^0.1.7"
+  },
+  {
+   "type": "library",
+   "name": "jasmine",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/jasmine@^7.0.0",
+   "bom-ref": "npm/jasmine@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "jasmine-spec-reporter",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/jasmine-spec-reporter@^7.0.0",
+   "bom-ref": "npm/jasmine-spec-reporter@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "rewire",
+   "version": "^9.0.1",
+   "purl": "pkg:npm/rewire@^9.0.1",
+   "bom-ref": "npm/rewire@^9.0.1"
+  },
+  {
+   "type": "library",
+   "name": "tmp",
+   "version": "^0.2.5",
+   "purl": "pkg:npm/tmp@^0.2.5",
+   "bom-ref": "npm/tmp@^0.2.5"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
